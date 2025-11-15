@@ -5,21 +5,18 @@ const testimonials = [
     quote: "My son's first birthday with OCB events was perfect, every detail. The cake, animals, decor and all absolutely magical. A perfectly beautiful day that I will never forget, rain and all…",
     author: "Petunia Mosoue",
     event: "First Birthday Celebration",
-    image: "https://images.pexels.com/photos/2801760/pexels-photo-2801760.jpeg?auto=compress&cs=tinysrgb&w=400",
     rating: 5,
   },
   {
     quote: "The owner was professional and helpful. I got everything I needed minutes before my event, I really recommend this company.",
     author: "Martin Kekana",
     event: "Corporate Event",
-    image: "https://images.pexels.com/photos/3756164/pexels-photo-3756164.jpeg?auto=compress&cs=tinysrgb&w=400",
     rating: 5,
   },
   {
     quote: "The job was so amazing and everything was done on time.",
     author: "Ashely Mingate",
     event: "Special Event",
-    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
     rating: 5,
   },
 ];
@@ -51,17 +48,6 @@ export default function Testimonials() {
               <div className="absolute top-0 left-8 w-12 h-px bg-[#D4AF37] -translate-y-1/2" />
 
               <div className="relative">
-                <div className="mb-6 flex justify-center">
-                  <div className="relative w-24 h-24 overflow-hidden rounded-full">
-                    <img
-                      src={testimonial.image}
-                      alt={testimonial.author}
-                      className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                    />
-                    <div className="absolute inset-0 border-2 border-[#D4AF37]/30" />
-                  </div>
-                </div>
-
                 <div className="flex justify-center gap-1 mb-6">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star

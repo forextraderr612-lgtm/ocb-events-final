@@ -1,21 +1,26 @@
+import { Star } from 'lucide-react';
+
 const testimonials = [
   {
     quote: "My son's first birthday with OCB events was perfect, every detail. The cake, animals, decor and all absolutely magical. A perfectly beautiful day that I will never forget, rain and all…",
     author: "Petunia Mosoue",
     event: "First Birthday Celebration",
     image: "https://images.pexels.com/photos/2801760/pexels-photo-2801760.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 5,
   },
   {
     quote: "The owner was professional and helpful. I got everything I needed minutes before my event, I really recommend this company.",
     author: "Martin Kekana",
     event: "Corporate Event",
     image: "https://images.pexels.com/photos/3756164/pexels-photo-3756164.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 5,
   },
   {
     quote: "The job was so amazing and everything was done on time.",
     author: "Ashely Mingate",
     event: "Special Event",
-    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+    rating: 5,
   },
 ];
 
@@ -55,6 +60,16 @@ export default function Testimonials() {
                     />
                     <div className="absolute inset-0 border-2 border-[#D4AF37]/30" />
                   </div>
+                </div>
+
+                <div className="flex justify-center gap-1 mb-6">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star
+                      key={i}
+                      size={18}
+                      className="fill-[#D4AF37] text-[#D4AF37]"
+                    />
+                  ))}
                 </div>
 
                 <blockquote className="text-[#4a4a4a] text-base leading-relaxed mb-6 italic font-light">

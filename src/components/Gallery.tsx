@@ -14,11 +14,6 @@ const images = [
     caption: 'Sophisticated Celebration',
     span: 'md:col-span-1 md:row-span-1',
   },
-  {
-    url: '/0-10.png',
-    caption: 'Reception Grandeur',
-    span: 'md:col-span-1 md:row-span-1',
-  },
 ];
 
 export default function Gallery() {

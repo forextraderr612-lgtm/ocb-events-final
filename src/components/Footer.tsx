@@ -23,18 +23,18 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <a
-                href="mailto:hello@mumusevents.com"
+                href="mailto:1modisemichelle@gmail.com"
                 className="flex items-center gap-3 text-[#a89f8c] hover:text-[#D4AF37] transition-colors duration-300"
               >
                 <Mail className="w-5 h-5" strokeWidth={1} />
-                <span className="font-light">hello@mumusevents.com</span>
+                <span className="font-light">1modisemichelle@gmail.com</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:0823107911"
                 className="flex items-center gap-3 text-[#a89f8c] hover:text-[#D4AF37] transition-colors duration-300"
               >
                 <Phone className="w-5 h-5" strokeWidth={1} />
-                <span className="font-light">+1 (234) 567-8900</span>
+                <span className="font-light">082 310 7911</span>
               </a>
             </div>
           </div>

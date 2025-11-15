@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="mb-6">
               <h3 className="font-serif text-4xl text-[#D4AF37] tracking-tight italic mb-2">
-                Mumus Events
+                OCB events
               </h3>
               <div className="w-24 h-px bg-gradient-to-r from-[#D4AF37] to-transparent" />
             </div>

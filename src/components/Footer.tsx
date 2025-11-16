@@ -65,7 +65,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-[#D4AF37]/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-[#a89f8c] text-sm font-light">
-              © {new Date().getFullYear()} Mumus Events — Crafted With Elegance.
+              © {new Date().getFullYear()} OCB Events — Crafted With Elegance.
             </p>
             <div className="flex gap-8 text-sm">
               <a href="#" className="text-[#a89f8c] hover:text-[#D4AF37] transition-colors duration-300 font-light">

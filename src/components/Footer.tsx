@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="w-24 h-px bg-gradient-to-r from-[#D4AF37] to-transparent" />
             </div>
             <p className="text-[#a89f8c] leading-relaxed font-light">
-              Curating timeless celebrations with elegance, sophistication, and unparalleled attention to detail.
+              OCB events curates timeless celebrations with elegance, sophistication, and unparalleled attention to detail.
             </p>
           </div>
 
